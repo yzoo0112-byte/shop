@@ -39,6 +39,6 @@ public class Member {
         String encodePw = passwordEncoder.encode(member.getPassword());
         member.setPassword(encodePw);
         member.setRole(Role.USER);
-        return member;000
+        return member;
     }
 }
